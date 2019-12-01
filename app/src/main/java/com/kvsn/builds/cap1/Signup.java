@@ -335,7 +335,8 @@ public class Signup extends AppCompatActivity implements View.OnClickListener, A
 
      public void test(View v)
      {
-	  createuser();
+		 //Toast.makeText(this , "Success" , Toast.LENGTH_SHORT).show();
+	  	createuser();
      }
 
      public void onRadioButtonclicked(View view)
